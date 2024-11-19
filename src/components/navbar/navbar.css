@@ -1,0 +1,29 @@
+.header {
+  padding: 84px 0 126px;
+  background-color: #faf9f8;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo a {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  display: flex;
+  column-gap: 95px;
+}
+
+.nav a {
+  color: #000;
+  transition: all 0.2s ease-in;
+}
+
+.nav a:hover {
+  color: #8e9a82;
+}
