@@ -1,0 +1,15 @@
+.categories-img {
+  margin-bottom: 18px;
+  display: flex;
+  column-gap: 22px;
+}
+
+.categories-img img {
+  flex: 1;
+  width: 1em;
+  object-fit: cover;
+}
+
+.categories-banner img {
+  width: 100%;
+}
