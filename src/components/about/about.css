@@ -1,0 +1,46 @@
+.about {
+  padding: 160px 0 100px;
+}
+
+.about-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-wrapper {
+  max-width: 1000px;
+}
+
+.about-title {
+  margin-bottom: 55px;
+}
+
+.about-title h2 {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.about-text {
+  margin-bottom: 82px;
+}
+
+.about-btn a {
+  padding: 20px 38px;
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  border: solid 6px #8e9a82;
+  border-radius: 10px;
+}
+
+.about-btn a:hover:focus {
+  background-color: #ececec;
+}
+
+.about-btn a:active {
+  position: relative;
+  top: 1px;
+}
