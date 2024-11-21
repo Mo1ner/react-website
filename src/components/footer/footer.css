@@ -1,0 +1,72 @@
+.footer {
+  padding: 120px 0 140px;
+  background: linear-gradient(to right, #f1f1f1 70%, #dbdbdb 30%);
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.footer-wrapper {
+  max-width: 617px;
+}
+
+.footer-title {
+  margin-bottom: 62px;
+}
+
+.footer-title h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 7px;
+  border: 5px solid #a0ae99; /* Цвет границы */
+  border-radius: 10px;
+  color: #000;
+}
+
+.form-textarea::placeholder,
+.form-input::placeholder {
+  color: #414141;
+}
+
+.form-input {
+  margin-bottom: 9px;
+  padding-bottom: 47px;
+}
+
+.form-textarea {
+  margin-bottom: 40px;
+  padding-bottom: 95px;
+}
+
+.form-button {
+  color: #fff;
+  padding: 17px 59px;
+  background-color: #8e9a82;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  transition: all 0.2s ease-in;
+}
+
+.form-button:hover,
+.form-button:focus {
+  background-color: #6f7767;
+}
+
+.form-button:active {
+  position: relative;
+  top: 1px;
+  background-color: #8e9a82;
+}
