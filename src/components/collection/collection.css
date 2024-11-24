@@ -14,3 +14,27 @@
   font-size: 40px;
   letter-spacing: 0.23em;
 }
+
+/* -------- media query -------- */
+
+@media (max-width: 1325px) {
+  .collection {
+    padding: 50px 0;
+  }
+
+  .collection-img {
+    column-gap: 70px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 811px) {
+  .collection-img {
+    column-gap: 30px;
+  }
+
+  .collection-item {
+    margin: 0 auto;
+    width: 150px;
+  }
+}
