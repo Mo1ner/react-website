@@ -19,6 +19,12 @@
   column-gap: 95px;
 }
 
+.mobile-menu {
+  width: 40px;
+  cursor: pointer;
+  display: none; /* useState hook*/
+}
+
 .nav a {
   color: #000;
   transition: all 0.2s ease-in;
@@ -26,4 +32,62 @@
 
 .nav a:hover {
   color: #8e9a82;
+}
+
+/* -------- media query -------- */
+@media (max-width: 1465px) {
+  .nav ul {
+    column-gap: 60px;
+  }
+}
+
+@media (max-width: 1325px) {
+  .header {
+    padding: 50px 0 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding: 30px 0 50px;
+  }
+
+  .mobile-menu-fixed {
+    position: fixed;
+    top: 40px;
+    right: 30px;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .nav ul {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    bottom: 0;
+    background-color: #8e9a82;
+    width: 200px;
+    display: block;
+    padding: 50px;
+    transition: 0.5s;
+  }
+
+  .nav ul.open-mobile-menu {
+    right: 0;
+  }
+
+  .nav li {
+    margin-bottom: 15px;
+  }
+
+  .nav a {
+    color: #000;
+    transition: all 0.2s ease-in;
+  }
+
+  .nav a:hover {
+    color: #464646;
+  }
 }
