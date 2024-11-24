@@ -17,3 +17,11 @@
 .categories-banner img {
   width: 100%;
 }
+
+/* -------- media query -------- */
+
+@media (max-width: 1325px) {
+  .categories {
+    padding-top: 50px;
+  }
+}
