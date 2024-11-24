@@ -8,3 +8,11 @@
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }
+
+/* -------- media query -------- */
+
+@media (max-width: 1325px) {
+  .main-title {
+    margin-bottom: 50px;
+  }
+}
